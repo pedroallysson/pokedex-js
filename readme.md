@@ -1,8 +1,10 @@
 # Pokedéx | JS
 
 
-Landing Page Pokedéx, com uma listagem de cards pokemons através do consumo de uma API REST.
+Landing Page Pokedéx, a página possui uma listagem de cards pokemons da primeira geração, consumidos através de uma API REST.
 
+
+![page-pokedex](https://github.com/user-attachments/assets/1a172d31-309b-48b2-a730-6af525937320)
 
 
 ## Tecnologias utilizadas
