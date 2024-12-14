@@ -28,8 +28,9 @@ let offset = 0;
 function convertPokemonToLi(pokemon) {
     return `
         <li class="pokemon ${pokemon.type}">
-            <span class="number">#${pokemon.number}</span>
+          <a href="details.html">
             <span class="name">${pokemon.name}</span>
+            <span class="number">#${pokemon.number}</span>
 
             <div class="detail">
                 <ol class="types">
@@ -39,6 +40,7 @@ function convertPokemonToLi(pokemon) {
                 <img src="${pokemon.photo}"
                      alt="${pokemon.name}">
             </div>
+          </a>
         </li>
     `
 }
